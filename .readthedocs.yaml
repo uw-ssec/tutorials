@@ -34,5 +34,3 @@ sphinx:
 python:
   install:
     - requirements: requirements.txt # Path to your requirements.txt file
-    - method: pip
-      path: . # Install the package itself
