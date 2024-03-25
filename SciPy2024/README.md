@@ -1,6 +1,6 @@
-# SciPy 2024 Tutorial: Generative AI Copilot for Scientific Software – a RAG-Based Approach 
+# Scipy 2024
 
- 
+## Generative AI Copilot for Scientific Software – a RAG-Based Approach
 
 Contributors: 
 

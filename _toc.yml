@@ -1,0 +1,11 @@
+# Learn more at https://jupyterbook.org/customize/toc.html
+root: intro
+format: jb-book
+parts:
+  - caption: Tutorials
+    chapters:
+      - file: SciPy2024/README.md
+        sections:
+          - file: SciPy2024/module1/index.md
+          - file: SciPy2024/module2/index.md
+          - file: SciPy2024/module3/index.md

@@ -1,0 +1,73 @@
+# Learn more at https://jupyterbook.org/customize/config.html
+title: ""
+author: UW SSEC Team
+copyright: "2024"
+logo: images/logo.png
+only_build_toc_files: true
+
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  # NOTE: this announcement shows up on all pages
+  #announcement: 'ℹ️ SciPy Tutorial Attendees. <a href="link/to/scipy-tutorial">Click here </a>.'
+  home_page_in_navbar: false
+  use_edit_page_button: true
+  use_issues_button: true
+  use_repository_button: true
+
+parse:
+  # https://jupyterbook.org/content/content-blocks.html?highlight=myst%20substitution#define-substitutions-for-your-whole-book
+  # https://jupyterbook.org/content/content-blocks.html#using-substitutions-in-links
+  myst_enable_extensions:
+    # Defaults
+    - dollarmath
+    - linkify
+    - substitution
+    - colon_fence
+    # Extras
+    - html_image
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: "cache"
+  allow_errors: false
+  # Per-cell notebook execution limit (seconds)
+  timeout: 300
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Configure your Binder links, such as the URL of the BinderHub.
+launch_buttons:
+  notebook_interface: jupyterlab
+  binderhub_url: "https://mybinder.org"
+
+# Information about where the book exists on the web
+repository:
+  url: "https://github.com/uw-ssec/tutorials"
+  branch: main
+
+# Bibliography
+bibtex_bibfiles:
+  - reference/references.bib
+
+# Advanced configuration
+sphinx:
+  extra_extensions:
+    # 404 not found page
+    - notfound.extension
+    # maintain old paths and redirect them (so google results dont go to 404)
+    # https://github.com/wpilibsuite/sphinxext-rediraffe
+    - sphinxext.rediraffe
+    - sphinx_exercise
+  config:
+    language: en # accessibility
+    # application/vnd.holoviews_load.v0+json, application/vnd.holoviews_exec.v0+json
+    suppress_warnings: ["mystnb.unknown_mime_type", "misc.highlighting_failure"]
+    notfound_context:
+      body: "<h1>Whoops! 404 Page Not Found</h1>\n\n<p>Sorry, this page doesn't exist. Many sections of this book have been updated recently.</p><p> Try the search box 🔎 to find what you're looking for!</p>"
+    notfound_urls_prefix: /
+
+    bibtex_reference_style: author_year # or label, super, \supercite
