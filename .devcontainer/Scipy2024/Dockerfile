@@ -11,12 +11,13 @@
 # RUN echo "conda activate ssec-scipy2024" >> ~/.bashrc
 
 # Use the latest version of the pangeo/base-image
-FROM pangeo/base-notebook:latest
+FROM pangeo/base-image:latest
 
 USER root
 
-# Copy the environment.yml file into the Docker image
+# Copy the environment and requirements files into the Docker image
 COPY environment.yml /tmp/environment.yml
+COPY requirements.txt /tmp/requirements.txt
 
 # Create a new Conda environment from the environment.yml file
 RUN conda env create -f /tmp/environment.yml
