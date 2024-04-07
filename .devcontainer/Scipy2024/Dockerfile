@@ -17,7 +17,6 @@ USER root
 
 # Copy the environment and requirements files into the Docker image
 COPY environment.yml /tmp/environment.yml
-COPY requirements.txt /tmp/requirements.txt
 
 # Create a new Conda environment from the environment.yml file
 RUN conda env create -f /tmp/environment.yml
