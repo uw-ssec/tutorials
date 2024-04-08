@@ -80,7 +80,7 @@ docker pull ghcr.io/uw-ssec/tutorial-scipy-2024:latest --platform linux/x86_64
 2. Once the image is pulled, you can run a container with the image:
 
 ```bash
-docker run -p 8888:8888 ghcr.io/uw-ssec/tutorial-scipy-2024:latest
+docker run -p 8888:8888 --platform linux/x86_64 ghcr.io/uw-ssec/tutorial-scipy-2024:latest
 ```
 
 This will start a Jupyter server that you can access by navigating to `localhost:8888` in your web browser.
