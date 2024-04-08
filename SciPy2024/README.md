@@ -72,8 +72,10 @@ Alternatively, you can set up the tutorial locally using Docker. Here's how:
 1. Pull the Docker image using the following command:
 
 ```bash
-docker pull ghcr.io/uw-ssec/tutorial-scipy-2024:latest
+docker pull ghcr.io/uw-ssec/tutorial-scipy-2024:latest --platform linux/x86_64
 ```
+
+> Note: The "no matching manifest for linux/arm64/v8 in the manifest list entries" error occurs if you do not include the platform flag for Apple Silicon systems
 
 2. Once the image is pulled, you can run a container with the image:
 
