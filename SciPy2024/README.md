@@ -66,11 +66,54 @@ Must have Python programming experience.
 
 Generative AI is changing the way we adopt and use technology. The power of AI is manifest in the everyday interactions of consumer tech and tools. This tutorial aims to utilize the underlying methods in Generative AI to advance scientific research. This tutorial will introduce and implement RAG (a technique for enhancing the accuracy and reliability of a generative AI model) for scientific research. We will go through the fundamentals of RAG and then implement it over documents retrieved from existing GitHub repositories and several domain-specific knowledge bases. The language model used in the tutorial is the Allen Institute for AI (AI2) Open Language Model (OLMo), an LLM with open data, code, weights, and evaluation benchmarks. OLMo is purpose-built for scientific discovery as it has been trained on Dolma, an open dataset of 3 trillion tokens collected from diverse web content, academic publications, code, books, and encyclopedic materials. LangChain is a Python and JavaScript framework for developing applications powered by LLMs. Using LangChain, we create a context-aware question answering agent by implementing a RAG chain. Using a simple example from the oceanographic community, we demonstrate how the tool performs correctly with and incorrectly without RAG-enabled context. At the end of the tutorial, attendees will create an AI-powered question and answering application that they can use to advance their research.  
 
-Following is an example of the output of a simple use case from the tutorial: 
+Following is an example of the output of a simple use case from the tutorial:
 
- 
+## Getting Started
 
-#### Before Implementing RAG 
+This tutorial can be set up in two ways: using GitHub Codespaces or Docker.
+
+### Using GitHub Codespaces
+
+#### Quick Start
+
+Click the button below to open the tutorial in a GitHub Codespace:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/uw-ssec/tutorials/tree/codespaces?name=SciPy2024&user=1&quickstart=1)
+
+#### Manual Setup
+
+GitHub Codespaces allows you to develop in the cloud instead of locally. Here's how to set it up:
+
+1. Navigate to the repository in GitHub.
+2. Click the green "Code" button and then select "Open with Codespaces".
+3. Click on the "+ New codespace" button.
+
+![Open with Codespaces](./images/open_with_codespaces.png)
+
+4. In the "Select dev container configuration" dropdown, choose the `SciPy2024` configuration and click "Create codespace".
+
+![Select dev container configuration](./images/select_dev_container.png)
+
+This will set up a new Codespace with the SciPy2024 tutorial.
+
+### Using Docker
+
+Alternatively, you can set up the tutorial locally using Docker. Here's how:
+
+1. Pull the Docker image using the following command:
+
+```bash
+docker pull ghcr.io/uw-ssec/tutorial-scipy-2024:latest
+```
+2. Once the image is pulled, you can run a container with the image:
+
+```bash
+docker run -p 8888:8888 ghcr.io/uw-ssec/tutorial-scipy-2024:latest
+```
+
+This will start a Jupyter server that you can access by navigating to `localhost:8888` in your web browser.
+
+## Before Implementing RAG 
 
  
 
