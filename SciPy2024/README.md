@@ -78,7 +78,7 @@ This tutorial can be set up in two ways: using GitHub Codespaces or Docker.
 
 Click the button below to open the tutorial in a GitHub Codespace:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/uw-ssec/tutorials/tree/codespaces?name=SciPy2024&user=1&quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/uw-ssec/tutorials/tree/codespaces?devcontainer=SciPy2024)
 
 #### Manual Setup
 
