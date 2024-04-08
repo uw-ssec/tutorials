@@ -2,31 +2,31 @@
 
 ## Generative AI Copilot for Scientific Software – a RAG-Based Approach
 
-Contributors: 
+Contributors:
 
-- Don Setiawan [1] 
+- Don Setiawan [1]
 
-- Anant Mittal [2] 
+- Anant Mittal [2]
 
-- Niki Burggraf [1] 
+- Niki Burggraf [1]
 
-- Cordero Core [1] 
+- Cordero Core [1]
 
-- Anshul Tambay [1] 
+- Anshul Tambay [1]
 
-- Vani Mandava [1] 
+- Vani Mandava [1]
+
+
+
+
+
+1. UW eScience Institute, Scientific Software Engineering Center, Seattle, WA
+
+2. University of Washington, Paul G. Allen School of Computer Science & Engineering, Seattle, WA
 
  
 
- 
-
-1. UW eScience Institute, Scientific Software Engineering Center, Seattle, WA 
-
-2. University of Washington, Paul G. Allen School of Computer Science & Engineering, Seattle, WA 
-
- 
-
-## Short Description 
+## Short Description
 
  
 
