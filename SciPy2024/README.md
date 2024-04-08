@@ -61,6 +61,8 @@ GitHub Codespaces allows you to develop in the cloud instead of locally. Here's 
 
 ![Select dev container configuration](../images/select_dev_container.png)
 
+> Note: The higher the number of cores, the faster the setup will be.
+
 This will set up a new Codespace environment for the SciPy 2024 tutorial.
 
 ### Using Docker
