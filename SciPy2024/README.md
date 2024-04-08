@@ -74,17 +74,9 @@ This tutorial can be set up in two ways: using GitHub Codespaces or Docker.
 
 ### Using GitHub Codespaces
 
-#### Quick Start
-
-Click the button below to open the tutorial in a GitHub Codespace:
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/uw-ssec/tutorials/tree/codespaces?devcontainer=SciPy2024)
-
-#### Manual Setup
-
 GitHub Codespaces allows you to develop in the cloud instead of locally. Here's how to set it up:
 
-1. Navigate to the repository in GitHub.
+1. Navigate to the top of the repository in GitHub.
 2. Click the green "Code" button and then select "Open with Codespaces".
 3. Click on the "+ New codespace" button.
 
