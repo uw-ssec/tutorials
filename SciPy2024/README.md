@@ -91,6 +91,8 @@ This command will open an interactive container with a bash shell.
 git clone https://github.com/uw-ssec/tutorials.git
 ```
 
+> Note: If you exit the container, run `docker ps -l` for the Container ID and `docker start -i <container_id>` to pick up where you left off.
+
 And there you go! You are ready to start the tutorial.
 
 ## Before Implementing RAG
@@ -181,3 +183,5 @@ To get started, download and extract the source code. Then run the scripts in th
 - Publish your code on GitHub
 
 - Try with your data!
+
+> Note: If you would like to share your work with the rest of your team or have a reminder of the work you did today, you can write your container to a new docker image. You can do that by running `docker commit <container_id> <new_image_name>` in your terminal.
