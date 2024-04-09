@@ -80,10 +80,18 @@ docker pull ghcr.io/uw-ssec/tutorial-scipy-2024:latest --platform linux/x86_64
 2. Once the image is pulled, you can run a container with the image:
 
 ```bash
-docker run -p 8888:8888 --platform linux/x86_64 ghcr.io/uw-ssec/tutorial-scipy-2024:latest
+docker run -p 8888:8888 --platform linux/x86_64 -it ghcr.io/uw-ssec/tutorial-scipy-2024:latest bash
 ```
 
-This will start a Jupyter server that you can access by navigating to `localhost:8888` in your web browser.
+This command will open an interactive container with a bash shell.
+
+3. Clone the tutorial into the container:
+
+```
+git clone https://github.com/uw-ssec/tutorials.git
+```
+
+And there you go! You are ready to start the tutorial.
 
 ## Before Implementing RAG
 
