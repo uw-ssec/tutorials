@@ -93,6 +93,40 @@ git clone https://github.com/uw-ssec/tutorials.git
 
 > Note: If you exit the container, run `docker ps -l` for the Container ID and `docker start -i <container_id>` to pick up where you left off.
 
+### Using a Conda Environment
+
+Finally, you can set up the tutorial locally using a Conda environment. Here's how:
+
+1. Download the environment file:
+
+```bash
+wget https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/environment.yml
+```
+
+2. Create the Conda environment:
+
+```bash
+conda env create -f environment.yml
+```
+
+3. Activate the Conda environment:
+
+```bash
+conda activate scipy-2024
+```
+
+4. Clone the tutorial repository:
+
+```bash
+git clone https://github.com/uw-ssec/tutorials.git
+```
+
+5. Navigate to the tutorial directory:
+
+```bash
+cd tutorials/SciPy2024
+```
+
 And there you go! You are ready to start the tutorial.
 
 ## Before Implementing RAG
