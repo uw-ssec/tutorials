@@ -3,18 +3,25 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
-  - ipykernel
-  - ipywidgets
-  - huggingface_hub
-  - transformers<4.39
   - ai2-olmo
-  - pytorch
-  - tqdm
   - fsspec
   - gcsfs
+  - huggingface_hub
+  - ipykernel
+  - ipywidgets
+  - jupyter-book
+  - jupyterlab
   - pandas
+  - pytorch
+  - python=3.11
+  - qdrant-client
   - sentence-transformers
+  - sphinx-codeautolink
+  - sphinx-exercise
+  - sphinx-notfound-page
+  - sphinxext-rediraffe
+  - tqdm
+  - transformers<4.39
   - pip
   - pip:
     - qdrant-client
