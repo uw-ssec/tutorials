@@ -4,3 +4,4 @@ sphinx-codeautolink
 sphinx-exercise
 sphinx-notfound-page
 sphinxext-rediraffe
+sphinx>=7.3.6,<8
