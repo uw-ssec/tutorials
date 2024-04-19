@@ -20,33 +20,35 @@ Contributors:
 
 2. University of Washington, Paul G. Allen School of Computer Science & Engineering, Seattle, WA
 
-## Short Description
+## Getting Started
+
+### Introduction
 
 Generative AI systems built upon large language models (LLMs) have shown great promise as tools that enable people to access information through natural conversation. Scientists can benefit from the breakthroughs these systems enable to create advanced tools that will help accelerate their research outcomes. This tutorial will cover: (1) the basics of language models, (2) setting up the environment for using open source LLMs without the use of expensive compute resources needed for training or fine-tuning, (3) learning a technique like Retrieval-Augmented Generation (RAG) to optimize output of LLM, and (4) build a “production-ready” app to demonstrate how researchers could turn disparate knowledge bases into special purpose AI-powered tools. The right audience for our tutorial is scientists and research engineers who want to use LLMs for their work.  
 
-## Prerequisites
+### Prerequisites
 
 <!-- A list of prerequisite skills expected of attendees, so that participants can choose level appropriate tutorials. -->
 
 No prior experience with LLMs is required, but familiarity with the Jupyter environment will be helpful.
 
-### Python Programming Level
+#### Python Programming Level
 
 <!-- Prior Python Programming Level of Knowledge Expected: Please note this reflects the attendees' Python programming level only, not the attendees' level of understanding of the topic. -->
 
 Must have Python programming experience.
 
-## Tutorial Description
+### Tutorial Description
 
 Generative AI is changing the way we adopt and use technology. The power of AI is manifest in the everyday interactions of consumer tech and tools. This tutorial aims to utilize the underlying methods in Generative AI to advance scientific research. This tutorial will introduce and implement RAG (a technique for enhancing the accuracy and reliability of a generative AI model) for scientific research. We will go through the fundamentals of RAG and then implement it over documents retrieved from existing GitHub repositories and several domain-specific knowledge bases. The language model used in the tutorial is the Allen Institute for AI (AI2) Open Language Model (OLMo), an LLM with open data, code, weights, and evaluation benchmarks. OLMo is purpose-built for scientific discovery as it has been trained on Dolma, an open dataset of 3 trillion tokens collected from diverse web content, academic publications, code, books, and encyclopedic materials. LangChain is a Python and JavaScript framework for developing applications powered by LLMs. Using LangChain, we create a context-aware question answering agent by implementing a RAG chain. Using a simple example from the oceanographic community, we demonstrate how the tool performs correctly with and incorrectly without RAG-enabled context. At the end of the tutorial, attendees will create an AI-powered question and answering application that they can use to advance their research.  
 
 Following is an example of the output of a simple use case from the tutorial:
 
-## Getting Started
+### Setting up the Environment
 
-This tutorial can be set up in two ways: using GitHub Codespaces or Docker.
+This tutorial can be set up in three ways: using GitHub Codespaces, Docker containers, or Conda environment.
 
-### Using GitHub Codespaces
+#### Using GitHub Codespaces
 
 GitHub Codespaces allows you to develop in the cloud instead of locally. Here's how to set it up:
 
@@ -65,7 +67,7 @@ GitHub Codespaces allows you to develop in the cloud instead of locally. Here's 
 
 This will set up a new Codespace environment for the SciPy 2024 tutorial.
 
-### Using Docker
+#### Using Docker
 
 Alternatively, you can set up the tutorial locally using Docker. Here's how:
 
@@ -93,7 +95,9 @@ git clone https://github.com/uw-ssec/tutorials.git
 
 > Note: If you exit the container, run `docker ps -l` for the Container ID and `docker start -i <container_id>` to pick up where you left off.
 
-### Using a Conda Environment
+Now, you can navigate to the tutorial directory and start the tutorial.
+
+#### Using a Conda Environment
 
 Finally, you can set up the tutorial locally using a Conda environment. Here's how:
 
