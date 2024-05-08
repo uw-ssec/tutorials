@@ -15,4 +15,5 @@ parts:
               - file: SciPy2024/module2/setup-llm-pipeline-with-langchain.ipynb
               - file: SciPy2024/module2/embeddings.ipynb
               - file: SciPy2024/module2/rag-based-llms.ipynb
+              - file: SciPy2024/module2/llms-and-retrieval-augmented-generation.ipynb
           - file: SciPy2024/module3/index.md
