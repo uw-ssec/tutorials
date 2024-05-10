@@ -9,6 +9,7 @@ parts:
           - file: SciPy2024/module1/index.md
             sections: 
               - file: SciPy2024/module1/introduction-to-language-models.ipynb
+              - file: SciPy2024/module1/setup.md
           - file: SciPy2024/module2/index.md
             sections: 
               - file: SciPy2024/module2/domain-specific-question-answering.ipynb
