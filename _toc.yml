@@ -10,6 +10,7 @@ parts:
             sections: 
               - file: SciPy2024/module1/introduction-to-language-models.ipynb
               - file: SciPy2024/module1/setup.md
+          - file: SciPy2024/break1.md
           - file: SciPy2024/module2/index.md
             sections: 
               - file: SciPy2024/module2/domain-specific-question-answering.ipynb
@@ -17,4 +18,5 @@ parts:
               - file: SciPy2024/module2/embeddings.ipynb
               - file: SciPy2024/module2/rag-based-llms.ipynb
               - file: SciPy2024/module2/llms-and-retrieval-augmented-generation.ipynb
+          - file: SciPy2024/break2.md
           - file: SciPy2024/module3/index.md
