@@ -20,6 +20,11 @@
         "memory": "16gb",
         "storage": "32gb"
     },
-    "postCreateCommand": ".devcontainer/Scipy2024/postBuild.sh"
+    "containerEnv": {
+      "OLMO_MODEL_FILE": "OLMo-7B-Instruct-Q4_K_M.gguf"
+    },
+    "postCreateCommand": {
+      "install_and_download": "pip install -e '${containerWorkspaceFolder}/resources' && python -c 'import ssec_tutorials; ssec_tutorials.download_olmo_model()'"
+    }
   }
   
