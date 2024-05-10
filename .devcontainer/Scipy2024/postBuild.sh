@@ -1,3 +1,5 @@
+#/bin/bash -l
+
 export RESOURCES_DIR=./resources
 
 # Download the OLMo GGUF Model
