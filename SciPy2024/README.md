@@ -79,7 +79,7 @@ To get started, download and extract the source code. Then run the scripts in th
 
 - LLM-Powered Application Framework (LangChain)
 
-#### Break (15 minutes)
+#### Break 1 (15 minutes)
 
 #### Module 2 – Building LLM-powered Domain Specific Question and Answer System (1 hour 15 mins)
 
@@ -99,7 +99,7 @@ To get started, download and extract the source code. Then run the scripts in th
 
 - Compare and Review LLM Results with and without Context
 
-#### Break (15 minutes)
+#### Break 2 (15 minutes)
 
 #### Module 3 - Creating the Application (1 hour)
 
