@@ -22,3 +22,5 @@ parts:
               - file: SciPy2024/module2/llms-and-retrieval-augmented-generation.ipynb
           - file: SciPy2024/break2.md
           - file: SciPy2024/module3/index.md
+            sections: 
+              - file: SciPy2024/module3/OLMo-Chat-RAG.ipynb
