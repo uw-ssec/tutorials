@@ -21,6 +21,8 @@ parts:
               - file: SciPy2024/module2/rag-based-llms.ipynb
           - file: SciPy2024/break2.md
           - file: SciPy2024/module3/index.md
+            sections: 
+              - file: SciPy2024/module3/olmo-chat-rag.ipynb
           - file: SciPy2024/appendix/index.md
             sections:
               - file: SciPy2024/appendix/astrophysics-dataset-creation.ipynb
