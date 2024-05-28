@@ -23,3 +23,8 @@ parts:
           - file: SciPy2024/module3/index.md
             sections: 
               - file: SciPy2024/module3/OLMo-Chat-RAG.ipynb
+          - file: SciPy2024/appendix/index.md
+            sections:
+              - file: SciPy2024/appendix/astrophysics-dataset-creation.ipynb
+              - file: SciPy2024/appendix/langchain-document-loaders.ipynb
+              - file: SciPy2024/appendix/qdrant-vector-database-creation.ipynb
