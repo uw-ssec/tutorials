@@ -4,22 +4,15 @@ This tutorial can be set up in three ways: using GitHub Codespaces, Docker conta
 
 ## Using GitHub Codespaces
 
-GitHub Codespaces allows you to develop in the cloud instead of locally. Here's how to set it up:
+This tutorial is available to run within [Github Codespaces](https://github.com/features/codespaces) - "a development environment that's hosted in the cloud" - with the conda environment specification in the [`environment.yml`](https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/environment.yml) file.
 
-1. Navigate to the top of the repository in GitHub.
-2. Click the green "Code" button and then select the "Codespaces" tab.
-3. Click on the "... Codespaces repository configuration" button.
-4. Click on the " + New with options..." button.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/uw-ssec/tutorials/tree/main?devcontainer_path=.devcontainer%2FScipy2024%2Fdevcontainer.json)
 
-    ![Open with Codespaces](../../images/open_with_codespaces.png)
+☝️ Click the button above to go to options window to launch a Github codespace.
 
-5. On the "Create codespaces for **uw-ssec/tutorials**" screen, choose the Branch (main), Dev container configuration (SciPy2024), Machine type (4-core), and click "Create codespace".
-
-    ![Select dev container configuration](../../images/select_dev_container.png)
-
-    > Note: The higher the number of cores, the faster the setup will be.
-
-    This will set up a new Codespace environment for the SciPy 2024 tutorial.
+A codespace is a development environment that's hosted in the cloud.
+You are able to chose from various Dev container configuration, for this specific workshop, please ensure that `Scipy2024` is selected.
+GitHub currently gives every user [120 vCPU hours per month for free](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts), beyond that you must pay. **So be sure to explicitly stop or shut down your codespace when you are done by going to this page (https://github.com/codespaces).**
 
 ## Using Docker
 
