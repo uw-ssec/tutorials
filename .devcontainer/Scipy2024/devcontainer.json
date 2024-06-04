@@ -24,7 +24,7 @@
       "OLMO_MODEL_FILE": "OLMo-7B-Instruct-Q4_K_M.gguf"
     },
     "postCreateCommand": {
-      "install_and_download": "pip install -e '${containerWorkspaceFolder}/resources' && python -c 'import ssec_tutorials; ssec_tutorials.download_olmo_model(): ssec_tutorials.download_all_tutorial_data'"
+      "install_and_download": "pip install -e '${containerWorkspaceFolder}/resources' && python -c 'import ssec_tutorials; ssec_tutorials.download_all_tutorial_data()'"
     }
   }
   
