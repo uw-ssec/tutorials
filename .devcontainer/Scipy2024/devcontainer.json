@@ -28,6 +28,10 @@
     },
     "updateContentCommand": {
       "download_tutorial_data": "python -c 'import ssec_tutorials; ssec_tutorials.download_all_tutorial_data()'"
-    }
+    },
+    "postStartCommand": {
+      "start_jupyterlab": "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --ServerApp.allow_origin='*' --ServerApp.token='' --LabApp.default_url='/lab/tree/SciPy2024/module1/introduction-to-language-models.ipynb'"  
+    },
+    "forwardPorts": [8888]
   }
   
