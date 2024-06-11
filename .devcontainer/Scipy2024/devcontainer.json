@@ -23,8 +23,11 @@
     "containerEnv": {
       "OLMO_MODEL_FILE": "OLMo-7B-Instruct-Q4_K_M.gguf"
     },
-    "postCreateCommand": {
-      "install_and_download": "pip install -e '${containerWorkspaceFolder}/resources' && python -c 'import ssec_tutorials; ssec_tutorials.download_all_tutorial_data()'"
+    "onCreateCommand": {
+      "install_internal_package": "pip install -e '${containerWorkspaceFolder}/resources'"
+    },
+    "updateContentCommand": {
+      "download_tutorial_data": "python -c 'import ssec_tutorials; ssec_tutorials.download_all_tutorial_data()'"
     }
   }
   
