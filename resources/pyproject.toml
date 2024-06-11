@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ssec-tutorials"
-version = "2024.5.8"
+version = "2024.6.11"
 description = "UW SSEC Tutorials Utility Library"
 readme = "README.md"
 requires-python = ">=3.10"
