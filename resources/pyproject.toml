@@ -19,7 +19,10 @@ classifiers = [
     "Topic :: Software Development :: Build Tools",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-dependencies = []
+dependencies = [
+    "langchain>=0.2.3",
+    "jsonlines>=4.0.0"
+]
 
 [tool.hatch.build.targets.sdist]
 exclude = [
