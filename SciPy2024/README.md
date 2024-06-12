@@ -108,3 +108,23 @@ To get started, download and extract the source code. Then run the scripts in th
 - Publish your code on GitHub
 
 - Try with your data!
+
+### Acknowledgements
+
+We would like to thank [Professor Andy Connolly](https://escience.washington.edu/member/andy-connolly/) for providing the questions and the domain expertise for the astronomy use case of this tutorial.
+
+We also thank the Allen Institute for AI (AI2) for providing the Open Language Model (OLMo) and the Dolma dataset, and the organizers of SciPy 2024 for giving us the opportunity to present this tutorial.
+
+The development of this tutorial, was done by engineers at the University of Washington's Scientific Software Engineering Center (SSEC) supported by Schmidt Sciences, LLC. as part of the Virtual Institutes for Scientific Software (VISS).
+
+<div>
+  <a href="https://escience.washington.edu/software-engineering/ssec/">
+    <img src="https://avatars.githubusercontent.com/u/122321194?s=200&v=4" alt="SSEC_logo" width="120">
+  </a>
+  <a href="https://www.schmidtsciences.org/viss/">
+    <img src="https://www.schmidtsciences.org/wp-content/themes/schmidt-sciences/images/logo.png" alt="Schmidt_logo" width="250">
+  </a>
+  <a href="https://escience.washington.edu/">
+    <img src="https://escience.washington.edu/wp-content/uploads/2022/07/escience-logo-768x193.png" alt="eScience_logo" width="250">
+  </a>
+</div>
