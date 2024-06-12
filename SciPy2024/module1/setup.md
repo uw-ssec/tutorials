@@ -14,43 +14,13 @@ A codespace is a development environment that's hosted in the cloud.
 You are able to chose from various Dev container configuration, for this specific workshop, please ensure that `Scipy2024` is selected.
 GitHub currently gives every user [120 vCPU hours per month for free](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts), beyond that you must pay. **So be sure to explicitly stop or shut down your codespace when you are done by going to this page (https://github.com/codespaces).**
 
-## Using Docker
-
-Alternatively, you can set up the tutorial locally using Docker. Here's how:
-
-1. Pull the Docker image using the following command:
-
-    ```bash
-    docker pull ghcr.io/uw-ssec/tutorial-scipy-2024:latest --platform linux/x86_64
-    ```
-
-    > Note: The "no matching manifest for linux/arm64/v8 in the manifest list entries" error occurs if you do not include the platform flag for Apple Silicon systems
-
-2. Once the image is pulled, you can run a container with the image:
-
-    ```bash
-    docker run -p 8888:8888 --platform linux/x86_64 -it ghcr.io/uw-ssec/tutorial-scipy-2024:latest bash
-    ```
-
-    This command will open an interactive container with a bash shell.
-
-3. Clone the tutorial into the container:
-
-    ```bash
-    git clone https://github.com/uw-ssec/tutorials.git
-    ```
-
-    > Note: If you exit the container, run `docker ps -l` for the Container ID and `docker start -i <container_id>` to pick up where you left off.
-
-    Now, you can navigate to the tutorial directory and start the tutorial.
-
-> Note: If you would like to share your work with the rest of your team or have a reminder of the work you do in this tutorial, you can write your container to a new docker image. You can do that by running `docker commit <container_id> <new_image_name>` in your terminal.
-
 ## Using a Conda Environment
 
-Finally, you can set up the tutorial locally using a Conda environment. Here's how:
+You can set up the tutorial locally using a Conda environment. Here's how:
 
-1. Download the environment file:
+1. Download the <a title="SciPy2024 Environment File" href="https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/environment.yml" download>environment file</a>:
+
+    *The example below uses `wget` to download the file. If you don't have `wget` installed, you can download the file directly from [github](https://github.com/uw-ssec/docker-images/blob/main/tutorial-scipy-2024/environment.yml) by clicking the download (<svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-download" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg>) button on the right side of page*
 
     ```bash
     wget https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/environment.yml
