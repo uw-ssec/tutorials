@@ -34,16 +34,9 @@ QDRANT_PATH = TUTORIAL_CACHE / QDRANT_FOLDER_NAME
 QDRANT_COLLECTION_NAME = "arxiv_astro-ph_abstracts_astropy_github_documentation"
 
 
-def _verify_tutorial_cache_exits():
-    # Check if TUTORIAL_CACHE exists
-    if not TUTORIAL_CACHE.exists():
-        TUTORIAL_CACHE.mkdir(parents=True, exist_ok=True)
-
-
 def download_all_tutorial_data(force=False):
     """Download all tutorial data assets."""
     
-    _verify_tutorial_cache_exits()
     download_olmo_model(force=force)
     download_astroph_arxiv_abstracts(force=force)
     download_astropy_github_documents(force=force)
@@ -65,8 +58,6 @@ def download_olmo_model(model_file: str | None = None, force=False) -> Path:
     pathlib.Path
         The path to the downloaded model file
     """
-    
-    _verify_tutorial_cache_exits()
     
     if not OLMO_MODEL.exists() or force:
         if model_file is None:
@@ -100,8 +91,6 @@ def download_astroph_arxiv_abstracts(
         The path to the downloaded abstracts file
     """
     
-    _verify_tutorial_cache_exits()
-
     if not ASTROPH_ARXIV_ABSTRACTS.exists() or force:
         if abstracts_file is None:
             abstracts_file = ASTROPH_ARXIV_ABSTRACTS_FILE
@@ -134,8 +123,6 @@ def download_astropy_github_documents(
 
     """
     
-    _verify_tutorial_cache_exits()
-    
     if not ASTROPY_GITHUB.exists() or force:
         if github_file is None:
             github_file = ASTROPY_GITHUB_FILE
@@ -166,8 +153,6 @@ def download_qdrant_data(qdrant_file: str | None = None, force=False) -> Path:
     pathlib.Path
         The path to the downloaded Qdrant data
     """
-    
-    _verify_tutorial_cache_exits()
     
     if not QDRANT_PATH.exists() or force:
         if qdrant_file is None:
