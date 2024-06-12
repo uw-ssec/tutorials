@@ -65,7 +65,7 @@ Finally, you can set up the tutorial locally using a Conda environment. Here's h
 3. Activate the Conda environment:
 
     ```bash
-    conda activate scipy-2024
+    conda activate ssec-scipy2024
     ```
 
 4. Clone the tutorial repository:
@@ -77,5 +77,24 @@ Finally, you can set up the tutorial locally using a Conda environment. Here's h
 5. Navigate to the tutorial directory:
 
     ```bash
-    cd tutorials/SciPy2024
+    cd tutorials/
+    ```
+
+6. Install internal package:
+
+    ```bash
+    pip install -e './resources'
+    ```
+
+
+7. Navigate to the tutorial directory:
+
+    ```bash
+    cd SciPy2024
+    ```
+
+8. Run Jupyter Lab:
+
+    ```bash
+    jupyter lab
     ```
