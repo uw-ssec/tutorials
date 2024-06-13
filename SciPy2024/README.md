@@ -95,12 +95,15 @@ The development of this tutorial, was done by engineers at the University of Was
 
 <div>
   <a href="https://escience.washington.edu/software-engineering/ssec/">
-    <img src="https://avatars.githubusercontent.com/u/122321194?s=200&v=4" alt="SSEC_logo" width="120">
+    <img src="https://uw-ssec-tutorials.readthedocs.io/en/latest/_static/logo.png" alt="SSEC_logo" width="100">
   </a>
   <a href="https://www.schmidtsciences.org/viss/">
-    <img src="https://www.schmidtsciences.org/wp-content/themes/schmidt-sciences/images/logo.png" alt="Schmidt_logo" width="250">
+    <img src="https://www.schmidtsciences.org/wp-content/themes/schmidt-sciences/images/logo.png" alt="Schmidt_logo" width="150" style="background-color: #1a1e2d;">
   </a>
   <a href="https://escience.washington.edu/">
-    <img src="https://escience.washington.edu/wp-content/uploads/2022/07/escience-logo-768x193.png" alt="eScience_logo" width="250">
+    <img src="https://escience.washington.edu/wp-content/uploads/2022/07/escience-logo-768x193.png" alt="eScience_logo" width="150" style="background-color: #ffffff;">
+  </a>
+  <a href="https://washington.edu/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Washington_Huskies_logo.svg" alt="eScience_logo" height="100">
   </a>
 </div>
