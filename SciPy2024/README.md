@@ -67,47 +67,23 @@ To get started, download and extract the source code. Then run the scripts in th
 
 ### Tutorial Outline (4 hours total)
 
-#### Module 1 – Introduction to LLMs and Problem Setup (1 hour 15 min)
+#### [Module 1: Introduction to LLMs and Problem Setup (1 hour 15 min)](./module1/index.md)
+- [Python Environment Setup](./module1/setup.md)
+- [Introduction to Language Models](./module1/introduction-to-language-models.ipynb)
+- [LLMs, Prompt Engineering, and OLMo](./module1/llms-and-prompt-engineering-with-olmo.ipynb)
+- [LangChain: The LLM Application Framework](./module1/langchain.ipynb)
 
-- Introduction to Language Models
+#### [Break 1 (15 minutes)](./break1.md)
 
-- LLMs and Prompt Engineering
+#### [Module 2: Building LLM-powered Domain Specific Question and Answer System (1 hour 15 mins)](./module2/index.md)
+- [Domain-Specific Question and Answer Examples](./module2/domain-specific-question-answering.ipynb)
+- [Astrophysics Prompting with OLMo](./module2/astrophysics-prompting-with-olmo.ipynb)
+- [Retrieval-Augmented Text Generation](./module2/retrieval-augmented-text-generation.ipynb)
 
-- Python Environment Setup (No GPU Required)
+#### [Break 2 (15 minutes)](./break2.md)
 
-- Demo Open-Source LLMs using OLMo and ask it several questions to show its capacity (e.g., ability to answer fact-based questions, when and where OLMo hallucinates, etc.)
-
-- LLM-Powered Application Framework (LangChain)
-
-#### Break 1 (15 minutes)
-
-#### Module 2 – Building LLM-powered Domain Specific Question and Answer System (1 hour 15 mins)
-
-- Domain-Specific Question and Answer Examples: Beginners trying to build knowledge about specific scientific software (e.g., Astropy, Biopython, Scikit-Learn, GROMACS, icepyx, Echopype, etc.) have questions ranging from novice to expert level.
-
-- Setup LLM pipeline with LangChain
-
-- Prompt Testing to Invoke OLMo and show its hallucinations
-
-- Introduction to RAG to Improve LLM’s Reliability (VectorDB and Document Embedding-Retrieval Concepts)
-
-- Data Loading (e.g., GitHub repositories, research manuscripts, software documentation, etc.), Chunking, and Embedding
-
-- Data Retriever Setup for Adding Context to LLM
-
-- Prompt Testing to Invoke OLMo with Context
-
-- Compare and Review LLM Results with and without Context
-
-#### Break 2 (15 minutes)
-
-#### Module 3 - Creating the Application (1 hour)
-
-- Expose your LLM as a Chat Application through CLI / Webapp
-
-- Publish your code on GitHub
-
-- Try with your data!
+#### [Module 3: Creating the Application (1 hour)](./module3/index.md)
+- [Astrophysics Chat Application](./module3/olmo-chat-rag.ipynb)
 
 ### Acknowledgements
 
