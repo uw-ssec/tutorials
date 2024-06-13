@@ -1,3 +1,4 @@
+from . import setup
 from .setup import (
     ASTROPH_ARXIV_ABSTRACTS,
     ASTROPY_GITHUB,
@@ -14,6 +15,7 @@ from .setup import (
 )
 
 __all__ = [
+    "setup",
     "ASTROPH_ARXIV_ABSTRACTS",
     "ASTROPY_GITHUB",
     "download_all_tutorial_data",

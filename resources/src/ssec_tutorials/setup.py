@@ -28,7 +28,7 @@ ASTROPH_ARXIV_ABSTRACTS = TUTORIAL_CACHE / ASTROPH_ARXIV_ABSTRACTS_FILE
 ASTROPY_GITHUB_FILE = os.environ.get("ASTROPY_GITHUB_FILE", "astropy-github.jsonl")
 ASTROPY_GITHUB = TUTORIAL_CACHE / ASTROPY_GITHUB_FILE
 
-QDRANT_ZIP_FILE = os.environ.get("QDRANT_ZIP_FILE", "scipy_qdrant.zip")
+QDRANT_ZIP_FILE = os.environ.get("QDRANT_ZIP_FILE", "scipy_qdrant_100k.zip")
 QDRANT_FOLDER_NAME = os.environ.get("QDRANT_FOLDER_NAME", "scipy_qdrant")
 QDRANT_PATH = TUTORIAL_CACHE / QDRANT_FOLDER_NAME
 QDRANT_COLLECTION_NAME = "arxiv_astro-ph_abstracts_astropy_github_documentation"
@@ -36,6 +36,7 @@ QDRANT_COLLECTION_NAME = "arxiv_astro-ph_abstracts_astropy_github_documentation"
 
 def download_all_tutorial_data(force=False):
     """Download all tutorial data assets."""
+    
     download_olmo_model(force=force)
     download_astroph_arxiv_abstracts(force=force)
     download_astropy_github_documents(force=force)
@@ -57,6 +58,7 @@ def download_olmo_model(model_file: str | None = None, force=False) -> Path:
     pathlib.Path
         The path to the downloaded model file
     """
+    
     if not OLMO_MODEL.exists() or force:
         if model_file is None:
             model_file = OLMO_MODEL_FILE
@@ -88,6 +90,7 @@ def download_astroph_arxiv_abstracts(
     pathlib.Path
         The path to the downloaded abstracts file
     """
+    
     if not ASTROPH_ARXIV_ABSTRACTS.exists() or force:
         if abstracts_file is None:
             abstracts_file = ASTROPH_ARXIV_ABSTRACTS_FILE
@@ -119,6 +122,7 @@ def download_astropy_github_documents(
         None
 
     """
+    
     if not ASTROPY_GITHUB.exists() or force:
         if github_file is None:
             github_file = ASTROPY_GITHUB_FILE
@@ -149,6 +153,7 @@ def download_qdrant_data(qdrant_file: str | None = None, force=False) -> Path:
     pathlib.Path
         The path to the downloaded Qdrant data
     """
+    
     if not QDRANT_PATH.exists() or force:
         if qdrant_file is None:
             qdrant_file = QDRANT_ZIP_FILE
