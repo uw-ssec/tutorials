@@ -23,6 +23,7 @@ parts:
           - file: SciPy2024/module3/index.md
             sections: 
               - file: SciPy2024/module3/olmo-chat-rag.ipynb
+              - file: SciPy2024/module3/try-with-your-data.ipynb
           - file: SciPy2024/appendix/index.md
             sections:
               - file: SciPy2024/appendix/astrophysics-dataset-creation.ipynb
