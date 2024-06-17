@@ -9,21 +9,20 @@ parts:
           - file: SciPy2024/module1/index.md
             sections: 
               - file: SciPy2024/module1/setup.md
-              - file: SciPy2024/module1/introduction-to-language-models.ipynb
-              - file: SciPy2024/module1/llms-and-prompt-engineering-with-olmo.ipynb
-              - file: SciPy2024/module1/langchain.ipynb
+              - file: SciPy2024/module1/1-introduction-to-language-models.ipynb
+              - file: SciPy2024/module1/2-llms-and-prompt-engineering-with-olmo.ipynb
+              - file: SciPy2024/module1/3-langchain.ipynb
           - file: SciPy2024/break1.md
           - file: SciPy2024/module2/index.md
             sections: 
-              - file: SciPy2024/module2/domain-specific-question-answering.ipynb
-              - file: SciPy2024/module2/astrophysics-prompting-with-olmo.ipynb
-              - file: SciPy2024/module2/retrieval-augmented-text-generation.ipynb
-              - file: SciPy2024/module2/rag-based-llms.ipynb
+              - file: SciPy2024/module2/1-domain-specific-question-answering.ipynb
+              - file: SciPy2024/module2/2-astrophysics-prompting-with-olmo.ipynb
+              - file: SciPy2024/module2/3-retrieval-augmented-text-generation.ipynb
           - file: SciPy2024/break2.md
           - file: SciPy2024/module3/index.md
             sections: 
-              - file: SciPy2024/module3/olmo-chat-rag.ipynb
-              - file: SciPy2024/module3/try-with-your-data.ipynb
+              - file: SciPy2024/module3/1-olmo-chat-rag.ipynb
+              - file: SciPy2024/module3/2-try-with-your-data.ipynb
           - file: SciPy2024/appendix/index.md
             sections:
               - file: SciPy2024/appendix/astrophysics-dataset-creation.ipynb
