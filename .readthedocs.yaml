@@ -18,4 +18,5 @@ build:
     - pip install -e ./resources
     - python resources/download_data.py
     - jb build .
+    - mkdir -p $READTHEDOCS_OUTPUT/html/
     - mv _build/html $READTHEDOCS_OUTPUT/html
