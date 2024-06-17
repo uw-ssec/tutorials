@@ -15,6 +15,7 @@ build:
       https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/environment.yml
     - mamba env update -f environment.yml
     - pip install -r requirements.txt
+    - pip install -e ./resources
     - python resources/download_data.py
     - jb build .
     - mv _build/html $READTHEDOCS_OUTPUT/html
