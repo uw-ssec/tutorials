@@ -10,13 +10,17 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "mambaforge-22.9"
-  commands:
-    - wget
-      https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/environment.yml
-    - mamba env update -f environment.yml
-    - pip install -r requirements.txt
-    - pip install -e ./resources
-    - python resources/download_data.py
-    - jb build .
-    - mkdir -p $READTHEDOCS_OUTPUT/html/
-    - mv _build/html $READTHEDOCS_OUTPUT/html
+  jobs:
+    post_checkout:
+      - wget
+        https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/environment.yml
+    post_create_environment:
+      - pip install -r requirements.txt
+    post_install:
+      - pip install -e ./resources
+    pre_build:
+      - python resources/download_data.py
+      - jupyter-book config sphinx .
+
+conda:
+  environment: environment.yml
