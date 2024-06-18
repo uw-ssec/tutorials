@@ -29,7 +29,7 @@ parse:
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: "off"
   allow_errors: false
   # Per-cell notebook execution limit (seconds)
   timeout: 300

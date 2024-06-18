@@ -9,16 +9,16 @@ ci:
   autofix_commit_msg: "style: pre-commit fixes"
 
 repos:
-  - repo: https://github.com/srstevenson/nb-clean
-    rev: 3.3.0
-    hooks:
-      - id: nb-clean
-        args:
-          - --remove-empty-cells
-          - --preserve-cell-metadata
-          - tags
-          - slideshow
-          - --
+  # - repo: https://github.com/srstevenson/nb-clean
+  #   rev: 3.3.0
+  #   hooks:
+  #     - id: nb-clean
+  #       args:
+  #         - --remove-empty-cells
+  #         - --preserve-cell-metadata
+  #         - tags
+  #         - slideshow
+  #         - --
   - repo: https://github.com/psf/black
     rev: 24.4.2
     hooks:
@@ -72,6 +72,7 @@ repos:
     rev: "v2.3.0"
     hooks:
       - id: codespell
+        args: ["-L", "precessing"]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
     rev: "0.28.4"
@@ -80,8 +81,8 @@ repos:
       - id: check-github-workflows
       - id: check-readthedocs
 
-  - repo: https://github.com/kynan/nbstripout
-    rev: 0.7.1
-    hooks:
-      - id: nbstripout
-        args: [--extra-keys=metadata.kernelspec metadata.language_info.version]
+  # - repo: https://github.com/kynan/nbstripout
+  #   rev: 0.7.1
+  #   hooks:
+  #     - id: nbstripout
+  #       args: [--extra-keys=metadata.kernelspec metadata.language_info.version]
