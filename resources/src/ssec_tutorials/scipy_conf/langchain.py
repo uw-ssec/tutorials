@@ -8,6 +8,7 @@ import typing as t
 import jsonlines
 from langchain.schema import Document
 
+
 def save_docs_to_jsonl(documents: t.Iterable[Document], file_path: str) -> None:
     """
     Save a collection of documents to a JSONL file.

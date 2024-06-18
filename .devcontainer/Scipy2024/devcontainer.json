@@ -1,33 +1,27 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 {
-    "image":"ghcr.io/uw-ssec/tutorial-scipy-2024:latest",
-  
-    "customizations": {
-      "vscode": {
-        "extensions": [
-          "ms-toolsai.jupyter",
-          "ms-python.python"
-        ]
-      },
-      "codespaces": {
-        "openFiles": [
-          "SciPy2024/README.md"
-        ]
-      }
+  "image": "ghcr.io/uw-ssec/tutorial-scipy-2024:latest",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-toolsai.jupyter", "ms-python.python"]
     },
-    "hostRequirements": {
-        "cpus": 4,
-        "memory": "16gb",
-        "storage": "32gb"
-    },
-    "containerEnv": {
-      "OLMO_MODEL_FILE": "OLMo-7B-Instruct-Q4_K_M.gguf"
-    },
-    "onCreateCommand": {
-      "install_internal_package": "pip install -e '${containerWorkspaceFolder}/resources'"
-    },
-    "updateContentCommand": {
-      "download_tutorial_data": "python -c 'import ssec_tutorials; ssec_tutorials.download_all_tutorial_data()'"
+    "codespaces": {
+      "openFiles": ["SciPy2024/README.md"]
     }
+  },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "32gb"
+  },
+  "containerEnv": {
+    "OLMO_MODEL_FILE": "OLMo-7B-Instruct-Q4_K_M.gguf"
+  },
+  "onCreateCommand": {
+    "install_internal_package": "pip install -e '${containerWorkspaceFolder}/resources'"
+  },
+  "updateContentCommand": {
+    "download_tutorial_data": "python -c 'import ssec_tutorials; ssec_tutorials.download_all_tutorial_data()'"
   }
-  
+}
