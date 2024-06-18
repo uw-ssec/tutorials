@@ -1,7 +1,8 @@
 exclude: |
   (?x)^(
     docs/conf.py |
-    SciPy2024/appendix/
+    SciPy2024/appendix/ |
+    README.md
   )
 
 ci:

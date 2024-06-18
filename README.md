@@ -1,4 +1,5 @@
-> [!IMPORTANT] SciPy Tutorial Attendees: You can find the tutorial materials in
+> [!IMPORTANT]
+> SciPy Tutorial Attendees: You can find the tutorial materials in
 > the [SciPy2024](./SciPy2024/) directory or
 > [readthedocs](https://uw-ssec-tutorials.readthedocs.io/en/latest/SciPy2024/README.html).
 > To quickly launch a GitHub codespace with the tutorial materials,
