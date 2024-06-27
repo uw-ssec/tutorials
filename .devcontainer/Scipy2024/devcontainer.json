@@ -1,6 +1,6 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 {
-  "image": "ghcr.io/uw-ssec/tutorial-scipy-2024:latest",
+  "image": "ghcr.io/uw-ssec/tutorial-scipy-2024@sha256:8b379c68033d78828748df4ad4f2502e798da79d77331fda75046089a8b22ff5",
 
   "customizations": {
     "vscode": {
