@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Panel Serve",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "-m",
+      "args": ["panel", "serve", "${relativeFile}", "--show"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
