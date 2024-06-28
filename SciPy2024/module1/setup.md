@@ -80,11 +80,11 @@ You can set up the tutorial locally using a Conda environment. Here's how:
    file.
 
    **Note: Ensure that you are using Python Version 3.11. The command below will
-   install a clean conda environment with just Python 3.11 and its
-   dependencies**
+   install a clean conda environment with just Python 3.11, conda-lock, and
+   their dependencies**
 
    ```bash
-   conda create -n ssec-scipy2024 python=3.11
+   conda create --yes -n ssec-scipy2024 python=3.11 conda-lock
    ```
 
 2. Activate the conda environment:
