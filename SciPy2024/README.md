@@ -106,17 +106,21 @@ We would like to thank
 for providing the questions and the domain expertise for the astronomy use case
 of this tutorial.
 
-We also thank the Allen Institute for AI (AI2) for providing the Open Language
-Model (OLMo) and the Dolma dataset, and the organizers of SciPy 2024 for giving
-us the opportunity to present this tutorial.
+We also thank the [Allen Institute for AI (AI2)](https://allenai.org/) for
+providing the Open Language Model (OLMo) and the Dolma dataset, the organizers
+of SciPy 2024 for giving us the opportunity to present this tutorial, and
+[Quansight](https://quansight.com/) for providing the
+[Nebari](https://www.nebari.dev/) platform for this tutorial.
 
-The development of this tutorial, was done by engineers at the University of
-Washington's Scientific Software Engineering Center (SSEC) supported by Schmidt
-Sciences, LLC. as part of the Virtual Institutes for Scientific Software (VISS).
+The development of this tutorial, was done by engineers at the
+[University of Washington's Scientific Software Engineering Center (SSEC)](https://escience.washington.edu/software-engineering/ssec/)
+supported by Schmidt Sciences, LLC. as part of the
+[Virtual Institutes for Scientific Software (VISS)](https://www.schmidtsciences.org/viss/).
 
 <div>
   <a href="https://escience.washington.edu/software-engineering/ssec/">
-    <img src="https://uw-ssec-tutorials.readthedocs.io/en/latest/_static/logo.png" alt="SSEC_logo" width="100">
+    <img src="https://uw-ssec-tutorials.readthedocs.io/en/latest/_static/logo.png"
+    alt="SSEC_logo" width="100">
   </a>
   <a href="https://www.schmidtsciences.org/viss/">
     <img src="https://www.schmidtsciences.org/wp-content/themes/schmidt-sciences/images/logo.png" alt="Schmidt_logo" width="150" style="background-color: #1a1e2d;">
@@ -125,6 +129,6 @@ Sciences, LLC. as part of the Virtual Institutes for Scientific Software (VISS).
     <img src="https://escience.washington.edu/wp-content/uploads/2022/07/escience-logo-768x193.png" alt="eScience_logo" width="150" style="background-color: #ffffff;">
   </a>
   <a href="https://washington.edu/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Washington_Huskies_logo.svg" alt="eScience_logo" height="100">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Washington_Huskies_logo.svg" alt="uw_logo" height="100">
   </a>
 </div>
