@@ -132,3 +132,8 @@ supported by Schmidt Sciences, LLC. as part of the
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Washington_Huskies_logo.svg" alt="uw_logo" height="100">
   </a>
 </div>
+
+### Feedback Survey
+
+Please fill out the [tutorial survey](https://tinyurl.com/ssecfeedback) at the
+end to help us improve the tutorial.
