@@ -50,7 +50,7 @@ repos:
       - id: rst-inline-touching-normal
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.5.1"
+    rev: "v0.5.5"
     hooks:
       - id: ruff
         args: ["--fix", "--show-fixes"]
@@ -76,7 +76,7 @@ repos:
         args: ["-L", "precessing"]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: "0.28.6"
+    rev: "0.29.1"
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
