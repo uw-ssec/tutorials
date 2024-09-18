@@ -1,0 +1,51 @@
+[project]
+name = "olmo-rag"
+version = "0.1.0"
+description = "Demo of OLMO RAG from the Scipy 2024"
+authors = ["Landung 'Don' Setiawan <landungs@uw.edu>"]
+channels = ["conda-forge", "pytorch"]
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+
+[tasks]
+start-demo = {depends-on = ["start-jupyter"], description = "Start the OLMO RAG demo"}
+start-jupyter = {cmd = "jupyter lab", description = "Start Jupyter Lab"}
+
+[dependencies]
+python = "3.11.*"
+pixi-kernel = ">=0.4.0,<0.5"
+jupyterlab = ">=4.2.5,<4.3"
+jupyter_bokeh = ">=4.0.5,<4.1"
+libopenblas = ">=0.3.27,<0.4"
+tqdm = ">=4.66.5,<4.67"
+numpy = "<2"
+pandas = ">=2.2.2,<2.3"
+pytorch = { version = "==2.1.2", channel = "pytorch" }
+panel = ">=1.5.0,<1.6"
+ipykernel = ">=6.29.5,<6.30"
+docker-py = ">=7.1.0,<7.2"
+testcontainers = ">=4.8.0,<4.9"
+
+[pypi-dependencies]
+langchain = "==0.2.3"
+langchain-community = "==0.2.4"
+langchain-qdrant = "==0.1.0"
+langchain-huggingface = "==0.0.3"
+jupyter-panel-proxy = "==0.2.0a2"
+qdrant-client = ">=1.11.2, <1.12"
+sentence-transformers = ">=3.1.0, <3.2"
+nltk = ">=3.9.1, <3.10"
+arxiv = ">=2.1.3, <2.2"
+pymupdf = ">=1.24.10, <1.25"
+ssec-tutorials = { git = "https://github.com/uw-ssec/ssec_tutorials.git", rev = "28e7755fb38aa330690944d79c1f1720dd1ad87e" }
+
+[target.linux-64.pypi-dependencies]
+llama-cpp-python = {url = "https://github.com/abetlen/llama-cpp-python/releases/download/v0.2.78/llama_cpp_python-0.2.78-cp311-cp311-linux_x86_64.whl"}
+
+[target.osx-64.pypi-dependencies]
+llama-cpp-python = {url = "https://github.com/abetlen/llama-cpp-python/releases/download/v0.2.78-metal/llama_cpp_python-0.2.78-cp311-cp311-macosx_11_0_x86_64.whl"}
+
+[target.osx-arm64.pypi-dependencies]
+llama-cpp-python = {url = "https://github.com/abetlen/llama-cpp-python/releases/download/v0.2.78-metal/llama_cpp_python-0.2.78-cp311-cp311-macosx_11_0_arm64.whl"}
+
+[target.win-64.pypi-dependencies]
+llama-cpp-python = { url = "https://github.com/abetlen/llama-cpp-python/releases/download/v0.2.78/llama_cpp_python-0.2.78-cp311-cp311-win_amd64.whl" }

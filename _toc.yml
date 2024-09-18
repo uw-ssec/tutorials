@@ -2,6 +2,9 @@
 root: intro
 format: jb-book
 parts:
+  - caption: Demos
+    chapters:
+      - file: demos/olmo-rag/index.ipynb
   - caption: Tutorials
     chapters:
       - file: SciPy2024/README.md
