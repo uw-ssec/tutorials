@@ -1,0 +1,6 @@
+# pixi environments
+.pixi
+*.egg-info
+
+# Algo textbook
+Algorithms-JeffE.pdf
