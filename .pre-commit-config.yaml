@@ -21,13 +21,13 @@ repos:
   #         - slideshow
   #         - --
   - repo: https://github.com/psf/black
-    rev: 24.8.0
+    rev: 24.10.0
     hooks:
       - id: black
       - id: black-jupyter
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: "v4.6.0"
+    rev: "v5.0.0"
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -50,14 +50,14 @@ repos:
       - id: rst-inline-touching-normal
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.6.5"
+    rev: "v0.8.4"
     hooks:
       - id: ruff
         args: ["--fix", "--show-fixes"]
       - id: ruff-format
 
   - repo: https://github.com/abravalheri/validate-pyproject
-    rev: "v0.19"
+    rev: "v0.23"
     hooks:
       - id: validate-pyproject
         additional_dependencies: ["validate-pyproject-schema-store[all]"]
@@ -76,7 +76,7 @@ repos:
         args: ["-L", "precessing"]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: "0.29.2"
+    rev: "0.30.0"
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
