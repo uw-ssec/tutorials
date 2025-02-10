@@ -21,7 +21,7 @@ repos:
   #         - slideshow
   #         - --
   - repo: https://github.com/psf/black
-    rev: 24.10.0
+    rev: 25.1.0
     hooks:
       - id: black
       - id: black-jupyter
@@ -50,7 +50,7 @@ repos:
       - id: rst-inline-touching-normal
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.8.4"
+    rev: "v0.9.6"
     hooks:
       - id: ruff
         args: ["--fix", "--show-fixes"]
@@ -70,13 +70,13 @@ repos:
         args: [--prose-wrap=always]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: "v2.3.0"
+    rev: "v2.4.1"
     hooks:
       - id: codespell
         args: ["-L", "precessing"]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: "0.30.0"
+    rev: "0.31.1"
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
