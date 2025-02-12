@@ -1,6 +1,6 @@
 # AI in Science Postdoc Workshop
 
-## Generative AI Copilot for Scientific Software – a RAG-Based Approach
+## Generative AI / RAG Copilot for Scientific Software
 
 Don Setiawan, Anant Mittal, Anuj Sinha, Ishika Khandelwal, Cordero Core, Madhav
 Kashyap, Niki Burggraf, Anshul Tambay, Vani Mandava, Apoorva Sheera, Parvati 
@@ -38,67 +38,29 @@ trillion tokens collected from diverse web content, academic publications, code,
 books, and encyclopedic materials. LangChain is a Python and JavaScript
 framework for developing applications powered by LLMs. Using LangChain, we
 create a context-aware question answering agent by implementing a RAG chain.
-Using a simple example from the astronomy community, we demonstrate how the tool
+Using a simple example from computer science community, we demonstrate how the tool
 performs correctly with and incorrectly without RAG-enabled context. At the end
 of the tutorial, attendees will create an AI-powered question and answering
 application that they can use to advance their research.
 
 Following is an example of the output of a simple use case from the tutorial:
 
-#### Before Implementing RAG
+### Tutorial Outline (1 hour 40 minutes total)
 
-```
-<|user|>
-
-What is Astropy?
-
-<|assistant|>
-
-A community-driven effort to build a common platform of astronomical tools and data formats, Astpy (short for "astronomy") is an open-source project that aims to create a unified framework for working with data in astronomy. Built on top of NumPy, SciPy, and other popular scientific libraries, Astropy provides functions, classes, and tools to facilitate and simplify the processing and analysis of astronomical datasets and simulations. This platform offers consistency in data structures, formatting, and interfaces across different packages, making it easier for researchers to work with large-scale observational and theoretical datasets alike. The project serves as a central location for many open-source tools, simplifying access and encouraging collaboration among astronomers and computer scientists.
-
-```
-
-#### After Implementing RAG
-
-```
-
-<|user|>
-
-What is Astropy?
-
-<|assistant|>
-
-Astropy is a community-developed open-source project that provides an integrated package for astronomical data analysis in Python. It includes various functionalities, such as time management, coordinate transformations, and data manipulation. Astropy is designed to be compatible with other popular data science tools like NumPy, SciPy, and IPython.
-
-The context provided describes the `astropy.utils` package, which contains various utility functions and classes that are not astronomy-specific but mainly for use within the Astropy project. This package covers topics such as downloading data from URLs, data structures, compatibility with older versions of Python/Numpy, and version intercompatibility functions.
-
-To summarize, Astropy is an open-source astronomical data analysis toolkit built upon existing packages like NumPy, SciPy, and IPython to provide a cohesive experience for users seeking astronomy-related functionality in Python. The `astropy.utils` package contains various utility functions and classes that are not specific to astronomy but instead cater to the Astropy project's requirements and internal compatibility concerns.
-
-```
-
-### Tutorial Outline (1 hour 30 minutes total)
-
-#### [Module 1: Introduction to LLMs and Problem Setup (1 hour 15 min)](./module1/index.md)
+#### [Module 1: Introduction to LLMs and Problem Setup (45 minutes)](./module1/index.md)
 
 - [Python Environment Setup](./module1/setup.md)
-- [Introduction to Language Models](./module1/1-introduction-to-language-models.ipynb)
-- [LLMs, Prompt Engineering, and OLMo](./module1/2-llms-and-prompt-engineering-with-olmo.ipynb)
-- [LangChain: The LLM Application Framework](./module1/3-langchain.ipynb)
+- [LLMs: Prompt Engineering, and OLMo](./module1/1-llms-prompt-engineering-with-olmo.ipynb)
+- [LangChain: The LLM Application Framework](./module1/2-langchain.ipynb)
+- [Domain-Specific Question and Answer Examples](./module1/3-domain-specific-question-answering.ipynb)
+- [Algorithms Prompting with OLMo](./module1/4-algorithms-prompting-with-olmo.ipynb)
 
-#### [Break 1 (15 minutes)](./break1.md)
+#### [Break 1 (5 minutes)](./break1.md)
 
-#### [Module 2: Building LLM-powered Domain Specific Question and Answer System (1 hour 15 mins)](./module2/index.md)
+#### [Module 2: Building LLM-powered Domain Specific Question and Answer System (50 minutes)](./module2/index.md)
 
-- [Domain-Specific Question and Answer Examples](./module2/1-domain-specific-question-answering.ipynb)
-- [Astrophysics Prompting with OLMo](./module2/2-astrophysics-prompting-with-olmo.ipynb)
-- [Retrieval-Augmented Text Generation](./module2/3-retrieval-augmented-text-generation.ipynb)
-
-#### [Break 2 (15 minutes)](./break2.md)
-
-#### [Module 3: Creating the Application (1 hour)](./module3/index.md)
-
-- [Astrophysics Chat Application](./module3/1-olmo-chat-rag.ipynb)
-- [Try with your data](./module3/2-try-with-your-data.ipynb)
+- [Retrieval-Augmented Text Generation](./module2/1-retrieval-augmented-text-generation.ipynb)
+- [Algorithms Chat Application](./module2/2-olmo-chat-rag.ipynb)
 
 ### Acknowledgements
 

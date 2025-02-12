@@ -1,32 +1,17 @@
 # Python Environment Setup
 
-This tutorial can be set up in three ways: Nebari, GitHub Codespaces, or Conda.
+This tutorial can be set up in two ways: GitHub Codespaces or Conda.
 
-During the tutorial, to follow along, we recommend using [**Nebari**](#nebari)
+During the tutorial, to follow along, we recommend using [**GitHub Codespaces**](#github-codespaces)
 for ease of use, as you won't need to worry about setting up the compute
 environment. However, if you would like to set up the tutorial on your local
 machine, you can use [**Conda**](#conda).
 
-Another option is to use [**GitHub Codespaces**](#github-codespaces), which is a
+[**GitHub Codespaces**](#github-codespaces), which is a
 cloud-based development environment that's hosted in the cloud. This option is
 available indefinitely, but you will be limited in the free resources you can
 use with GitHub Codespaces.
 
-## 🪴 Nebari
-
-```{note}
-Day of Access Only, with a good amount of resources
-```
-
-For ease of use, we recommend using **Nebari**. The Nebari platform is a
-cloud-based platform that provides a JupyterLab Interface. Nebari is developed
-and hosted by [Quansight](https://quansight.com/). It is a great way to run the
-tutorial materials without having to install anything on your local machine.
-However, this will only be available on the **day of the tutorial ONLY**. You
-will receive a coupon code with details to access Nebari.
-
-You can find details about using Nebari in the
-[Participant Guide](https://tinyurl.com/nebari-guide-scipy2024).
 
 ## 🐱‍💻 GitHub Codespaces
 
@@ -52,7 +37,7 @@ beyond that you must pay. **So be sure to explicitly stop or shut down your
 codespace when you are done by going to this page
 (https://github.com/codespaces).**
 
-<a title="Create New Scipy 2024 Codespaces" href="https://github.com/codespaces/new/uw-ssec/tutorials/tree/main?devcontainer_path=.devcontainer%2FScipy2024%2Fdevcontainer.json&quickstart=1" target="_blank"><img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces"/></a>
+<a title="Create New AI in Science Postdoc Workshop Codespaces" href="https://github.com/codespaces/new/uw-ssec/tutorials/tree/main?devcontainer_path=.devcontainer%2FScipy2024%2Fdevcontainer.json&quickstart=1" target="_blank"><img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces"/></a>
 
 ☝️ Click the button above to go to options window to launch a Github codespace.
 

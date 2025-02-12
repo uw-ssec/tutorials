@@ -31,3 +31,19 @@ parts:
               - file: SciPy2024/appendix/astrophysics-dataset-creation.ipynb
               - file: SciPy2024/appendix/langchain-document-loaders.ipynb
               - file: SciPy2024/appendix/qdrant-vector-database-creation.ipynb
+  - caption: Workshops
+    chapters:
+      - file: AI_Postdoc_Workshop/README.md
+        sections:
+          - file: AI_Postdoc_Workshop/module1/index.md
+            sections:
+              - file: AI_Postdoc_Workshop/module1/setup.md
+              - file: AI_Postdoc_Workshop/module1/1-llms-prompt-engineering-with-olmo.ipynb
+              - file: AI_Postdoc_Workshop/module1/2-langchain.ipynb
+              - file: AI_Postdoc_Workshop/module1/3-domain-specific-question-answering.ipynb
+              - file: AI_Postdoc_Workshop/module1/4-algorithms-prompting-with-olmo
+          - file: AI_Postdoc_Workshop/break1.md
+          - file: AI_Postdoc_Workshop/module2/index.md
+            sections:
+              - file: AI_Postdoc_Workshop/module2/1-retrieval-augmented-text-generation.ipynb
+              - file: AI_Postdoc_Workshop/module2/2-olmo-chat-rag.ipynb
