@@ -51,7 +51,7 @@ You can set up the tutorial locally using a Conda environment. Here's how:
 0. Downloading and Installing Conda
 
    If you don't have Conda installed, we recommend following the instruction to
-   downloadn and install the
+   download and install the
    [Miniforge distribution](https://github.com/conda-forge/miniforge) >=
    `Miniforge3-22.3.1-0` of Conda. This distribution is a minimal installer for
    conda specifically optimized for [conda-forge](https://conda-forge.org/)
@@ -122,7 +122,7 @@ You can set up the tutorial locally using a Conda environment. Here's how:
 8. Navigate to the tutorial directory:
 
    ```bash
-   cd SciPy2024
+   cd AI_Postdoc_Workshop
    ```
 
 9. Run Jupyter Lab:
