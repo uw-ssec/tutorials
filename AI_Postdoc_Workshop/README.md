@@ -43,7 +43,6 @@ tool performs correctly with and incorrectly without RAG-enabled context. At the
 end of the tutorial, attendees will create an AI-powered question and answering
 application that they can use to advance their research.
 
-Following is an example of the output of a simple use case from the tutorial:
 
 ### Tutorial Outline (1 hour 40 minutes total)
 
