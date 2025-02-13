@@ -5,3 +5,4 @@ sphinx-codeautolink
 sphinx-exercise
 sphinx-notfound-page
 sphinxext-rediraffe
+testcontainers

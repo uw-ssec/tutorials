@@ -3,8 +3,7 @@
 ## Generative AI / RAG Copilot for Scientific Software
 
 Don Setiawan, Anant Mittal, Anuj Sinha, Ishika Khandelwal, Cordero Core, Madhav
-Kashyap, Niki Burggraf, Anshul Tambay, Vani Mandava, Apoorva Sheera, Parvati 
-Jayakumar, Madeline Gordon
+Kashyap, Niki Burggraf, Anshul Tambay, Vani Mandava, Apoorva Sheera, Madeline Gordon
 
 ### Introduction
 
@@ -70,10 +69,7 @@ for providing the questions and the domain expertise for the astronomy use case
 of this tutorial.
 
 We also thank the [Allen Institute for AI (AI2)](https://allenai.org/) for
-providing the Open Language Model (OLMo) and the Dolma dataset, the organizers
-of SciPy 2024 for giving us the opportunity to present this tutorial, and
-[Quansight](https://quansight.com/) for providing the
-[Nebari](https://www.nebari.dev/) platform for this tutorial.
+providing the Open Language Model (OLMo) and the Dolma dataset.
 
 The development of this tutorial, was done by engineers at the
 [University of Washington's Scientific Software Engineering Center (SSEC)](https://escience.washington.edu/software-engineering/ssec/)
