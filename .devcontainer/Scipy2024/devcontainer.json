@@ -19,6 +19,7 @@
     "OLMO_MODEL_FILE": "OLMo-7B-Instruct-Q4_K_M.gguf"
   },
   "updateContentCommand": {
-    "download_tutorial_data": "python resources/download_data.py"
+    "download_tutorial_data": "python resources/download_data.py",
+    "download_hls4ml_data": "resources/download_hls4ml_data.sh"
   }
 }
