@@ -3,7 +3,8 @@
 ## Generative AI / RAG Copilot for Scientific Software
 
 Don Setiawan, Anant Mittal, Anuj Sinha, Ishika Khandelwal, Cordero Core, Madhav
-Kashyap, Niki Burggraf, Anshul Tambay, Vani Mandava, Apoorva Sheera, Madeline Gordon
+Kashyap, Niki Burggraf, Anshul Tambay, Vani Mandava, Apoorva Sheera, Madeline
+Gordon
 
 ### Introduction
 
@@ -37,9 +38,9 @@ trillion tokens collected from diverse web content, academic publications, code,
 books, and encyclopedic materials. LangChain is a Python and JavaScript
 framework for developing applications powered by LLMs. Using LangChain, we
 create a context-aware question answering agent by implementing a RAG chain.
-Using a simple example from computer science community, we demonstrate how the tool
-performs correctly with and incorrectly without RAG-enabled context. At the end
-of the tutorial, attendees will create an AI-powered question and answering
+Using a simple example from computer science community, we demonstrate how the
+tool performs correctly with and incorrectly without RAG-enabled context. At the
+end of the tutorial, attendees will create an AI-powered question and answering
 application that they can use to advance their research.
 
 Following is an example of the output of a simple use case from the tutorial:

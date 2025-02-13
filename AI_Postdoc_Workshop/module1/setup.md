@@ -2,16 +2,15 @@
 
 This tutorial can be set up in two ways: GitHub Codespaces or Conda.
 
-During the tutorial, to follow along, we recommend using [**GitHub Codespaces**](#github-codespaces)
-for ease of use, as you won't need to worry about setting up the compute
-environment. However, if you would like to set up the tutorial on your local
-machine, you can use [**Conda**](#conda).
+During the tutorial, to follow along, we recommend using
+[**GitHub Codespaces**](#github-codespaces) for ease of use, as you won't need
+to worry about setting up the compute environment. However, if you would like to
+set up the tutorial on your local machine, you can use [**Conda**](#conda).
 
-[**GitHub Codespaces**](#github-codespaces), which is a
-cloud-based development environment that's hosted in the cloud. This option is
-available indefinitely, but you will be limited in the free resources you can
-use with GitHub Codespaces.
-
+[**GitHub Codespaces**](#github-codespaces), which is a cloud-based development
+environment that's hosted in the cloud. This option is available indefinitely,
+but you will be limited in the free resources you can use with GitHub
+Codespaces.
 
 ## 🐱‍💻 GitHub Codespaces
 
