@@ -20,5 +20,10 @@
   },
   "updateContentCommand": {
     "download_tutorial_data": "python resources/download_data.py"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installJupyterlab": true
+    }
   }
 }
