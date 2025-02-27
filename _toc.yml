@@ -5,7 +5,6 @@ parts:
   - caption: Demos
     chapters:
       - file: demos/olmo-rag/index.ipynb
-  - caption: Tutorials
   - caption: Workshops
     chapters:
       - file: AI_Postdoc_Workshop/README.md
