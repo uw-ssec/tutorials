@@ -5,7 +5,7 @@
   "customizations": {
     "vscode": {
       "extensions": ["ms-toolsai.jupyter", "ms-python.python"],
-      "settings" : {
+      "settings": {
         "notebook.output.wordWrap": true
       }
     },
