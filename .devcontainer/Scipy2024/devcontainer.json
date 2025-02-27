@@ -4,7 +4,10 @@
 
   "customizations": {
     "vscode": {
-      "extensions": ["ms-toolsai.jupyter", "ms-python.python"]
+      "extensions": ["ms-toolsai.jupyter", "ms-python.python"],
+      "settings" : {
+        "notebook.output.wordWrap": true
+      }
     },
     "codespaces": {
       "openFiles": ["SciPy2024/README.md"]
