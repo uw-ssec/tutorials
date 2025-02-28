@@ -5,32 +5,6 @@ parts:
   - caption: Demos
     chapters:
       - file: demos/olmo-rag/index.ipynb
-  - caption: Tutorials
-    chapters:
-      - file: SciPy2024/README.md
-        sections:
-          - file: SciPy2024/module1/index.md
-            sections:
-              - file: SciPy2024/module1/setup.md
-              - file: SciPy2024/module1/1-introduction-to-language-models.ipynb
-              - file: SciPy2024/module1/2-llms-and-prompt-engineering-with-olmo.ipynb
-              - file: SciPy2024/module1/3-langchain.ipynb
-          - file: SciPy2024/break1.md
-          - file: SciPy2024/module2/index.md
-            sections:
-              - file: SciPy2024/module2/1-domain-specific-question-answering.ipynb
-              - file: SciPy2024/module2/2-astrophysics-prompting-with-olmo.ipynb
-              - file: SciPy2024/module2/3-retrieval-augmented-text-generation.ipynb
-          - file: SciPy2024/break2.md
-          - file: SciPy2024/module3/index.md
-            sections:
-              - file: SciPy2024/module3/1-olmo-chat-rag.ipynb
-              - file: SciPy2024/module3/2-try-with-your-data.ipynb
-          - file: SciPy2024/appendix/index.md
-            sections:
-              - file: SciPy2024/appendix/astrophysics-dataset-creation.ipynb
-              - file: SciPy2024/appendix/langchain-document-loaders.ipynb
-              - file: SciPy2024/appendix/qdrant-vector-database-creation.ipynb
   - caption: Workshops
     chapters:
       - file: AI_Postdoc_Workshop/README.md
@@ -47,3 +21,29 @@ parts:
             sections:
               - file: AI_Postdoc_Workshop/module2/1-retrieval-augmented-text-generation.ipynb
               - file: AI_Postdoc_Workshop/module2/2-olmo-chat-rag.ipynb
+  - caption: Archive
+    chapters:
+      - file: Archive/SciPy2024/README.md
+        sections:
+          - file: Archive/SciPy2024/module1/index.md
+            sections:
+              - file: Archive/SciPy2024/module1/setup.md
+              - file: Archive/SciPy2024/module1/1-introduction-to-language-models.ipynb
+              - file: Archive/SciPy2024/module1/2-llms-and-prompt-engineering-with-olmo.ipynb
+              - file: Archive/SciPy2024/module1/3-langchain.ipynb
+          - file: Archive/SciPy2024/break1.md
+          - file: Archive/SciPy2024/module2/index.md
+            sections:
+              - file: Archive/SciPy2024/module2/1-domain-specific-question-answering.ipynb
+              - file: Archive/SciPy2024/module2/2-astrophysics-prompting-with-olmo.ipynb
+              - file: Archive/SciPy2024/module2/3-retrieval-augmented-text-generation.ipynb
+          - file: Archive/SciPy2024/break2.md
+          - file: Archive/SciPy2024/module3/index.md
+            sections:
+              - file: Archive/SciPy2024/module3/1-olmo-chat-rag.ipynb
+              - file: Archive/SciPy2024/module3/2-try-with-your-data.ipynb
+          - file: Archive/SciPy2024/appendix/index.md
+            sections:
+              - file: Archive/SciPy2024/appendix/astrophysics-dataset-creation.ipynb
+              - file: Archive/SciPy2024/appendix/langchain-document-loaders.ipynb
+              - file: Archive/SciPy2024/appendix/qdrant-vector-database-creation.ipynb

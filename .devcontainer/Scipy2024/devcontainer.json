@@ -7,7 +7,7 @@
       "extensions": ["ms-toolsai.jupyter", "ms-python.python"]
     },
     "codespaces": {
-      "openFiles": ["SciPy2024/README.md"]
+      "openFiles": ["AI_Postdoc_workshop/README.md"]
     }
   },
   "hostRequirements": {
