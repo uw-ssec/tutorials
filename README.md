@@ -1,11 +1,3 @@
-> [!IMPORTANT]
-> SciPy Tutorial Attendees: You can find the tutorial materials in
-> the [SciPy2024](./SciPy2024/) directory or
-> [readthedocs](https://uw-ssec-tutorials.readthedocs.io/en/latest/SciPy2024/README.html).
-> To quickly launch a GitHub codespace with the tutorial materials,
-> <a title="Create New Scipy 2024 Codespaces" href="https://github.com/codespaces/new/uw-ssec/tutorials/tree/main?devcontainer_path=.devcontainer%2FScipy2024%2Fdevcontainer.json&quickstart=1" target="_blank">click
-> here</a>.
-
 # Tutorials
 
 This is the repository for a Jupyter Book website with tutorial materials for
