@@ -111,9 +111,10 @@ You can set up the tutorial locally using a Conda environment. Here's how:
    ```
 
 7. Download the tutorial data with the provided
-   [`download_data.py`](../../resources/download_data.py) script in the `resources`
-   directory. This includes the OLMo data, copy of the vector database, and
-   others. The data are downloaded to `~/.cache/ssec_tutorials/` directory:
+   [`download_data.py`](../../resources/download_data.py) script in the
+   `resources` directory. This includes the OLMo data, copy of the vector
+   database, and others. The data are downloaded to `~/.cache/ssec_tutorials/`
+   directory:
 
    ```bash
    python resources/download_data.py
