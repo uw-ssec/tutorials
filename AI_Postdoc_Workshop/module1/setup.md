@@ -15,7 +15,7 @@ Codespaces.
 ## 🐱‍💻 GitHub Codespaces
 
 ```{note}
-Indefinite Access, but Limited Resources. 
+Indefinite Access, but Limited Resources.
 If your Codespace gives you a low disk space error, please refresh the tab.
 ```
 
@@ -40,7 +40,6 @@ codespace when you are done by going to this page
 <a title="Create New AI in Science Postdoc Workshop Codespaces" href="https://github.com/codespaces/new/uw-ssec/tutorials/tree/main?devcontainer_path=.devcontainer%2FScipy2024%2Fdevcontainer.json&quickstart=1" target="_blank"><img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces"/></a>
 
 ☝️ Click the button above to go to options window to launch a Github codespace.
-
 
 ## 🐍 Conda
 
