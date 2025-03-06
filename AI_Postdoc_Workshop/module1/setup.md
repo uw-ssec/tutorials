@@ -15,7 +15,8 @@ Codespaces.
 ## 🐱‍💻 GitHub Codespaces
 
 ```{note}
-Indefinite Access, but Limited Resources
+Indefinite Access, but Limited Resources.
+If your Codespace gives you a low disk space error, please refresh the tab.
 ```
 
 This tutorial is available to run within
