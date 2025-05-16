@@ -7,7 +7,7 @@ During the tutorial, to follow along, we recommend using
 to worry about setting up the compute environment. However, if you would like to
 set up the tutorial on your local machine, you can use [**Conda**](#conda).
 
-[**GitHub Codespaces**](#github-codespaces), which is a cloud-based development
+[**GitHub Codespaces**](#github-codespaces), is a cloud-based development
 environment that's hosted in the cloud. This option is available indefinitely,
 but you will be limited in the free resources you can use with GitHub
 Codespaces.
@@ -29,7 +29,7 @@ GitHub Codespaces and you need to have a GitHub account to use GitHub
 Codespaces.
 
 A codespace is a development environment that's hosted in the cloud. You are
-able to chose from various Dev container configuration, for this specific
+able to chose from various Dev container configurations. For this specific
 workshop, please ensure that `Scipy2024` is selected. GitHub currently gives
 every user
 [120 vCPU hours per month for free](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts),
@@ -51,14 +51,14 @@ You can set up the tutorial locally using a Conda environment. Here's how:
 
 0. Downloading and Installing Conda
 
-   If you don't have Conda installed, we recommend following the instruction to
+   If you don't have Conda installed, we recommend following the instructions to
    download and install the
    [Miniforge distribution](https://github.com/conda-forge/miniforge) >=
    `Miniforge3-22.3.1-0` of Conda. This distribution is a minimal installer for
    conda specifically optimized for [conda-forge](https://conda-forge.org/)
    (Community-led recipes, infrastructure and distributions for conda.).
 
-1. Create a new Conda environment called `ssec-scipy2024` with
+1. Create a new Conda environment called `ssec-scipy2024` with the
    [`conda-lock`](https://github.com/conda/conda-lock) package installed. This
    package is used to install the exact versions of the packages in the
    [`conda-lock.yml`](https://raw.githubusercontent.com/uw-ssec/docker-images/main/tutorial-scipy-2024/conda-lock.yml)
