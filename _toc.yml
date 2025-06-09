@@ -7,6 +7,7 @@ parts:
       - file: demos/olmo-rag/index.ipynb
   - caption: Workshops
     chapters:
+      - file: ISS_AI4SciD_Workshop/README.md
       - file: AI_Postdoc_Workshop/README.md
         sections:
           - file: AI_Postdoc_Workshop/module1/index.md

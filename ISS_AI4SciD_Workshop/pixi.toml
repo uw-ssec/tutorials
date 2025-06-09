@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Landung 'Don' Setiawan <landungs@uw.edu>"]
+channels = ["conda-forge"]
+name = "ISS_AI4SciD_Workshop"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
