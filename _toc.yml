@@ -2,12 +2,9 @@
 root: intro
 format: jb-book
 parts:
-  - caption: Demos
-    chapters:
-      - file: demos/olmo-rag/index.ipynb
   - caption: Workshops
     chapters:
-      - file: ISS_AI4SciD_Workshop/README.md
+      - file: AI_For_Scientific_Discovery_Participatory_Design_Workshop/README.md
       - file: AI_Postdoc_Workshop/README.md
         sections:
           - file: AI_Postdoc_Workshop/module1/index.md
@@ -22,6 +19,9 @@ parts:
             sections:
               - file: AI_Postdoc_Workshop/module2/1-retrieval-augmented-text-generation.ipynb
               - file: AI_Postdoc_Workshop/module2/2-olmo-chat-rag.ipynb
+  - caption: Demos
+    chapters:
+      - file: demos/olmo-rag/index.ipynb
   - caption: Archive
     chapters:
       - file: Archive/SciPy2024/README.md
