@@ -1,6 +1,6 @@
 # AI to Support Scientific Discovery
 
-## Workshop Summary
+## Participatory Design Workshop Summary
 
 This participatory design workshop is motivated by the principle that AI for
 scientific discovery can have an immense impact when solutions emerge from a
