@@ -1,1 +1,5 @@
-# Session 5: Group Feedback (15 minutes)
+# Session 5: Group Feedback
+
+```{include} ../timers/timer-15-minutes.md
+
+```
