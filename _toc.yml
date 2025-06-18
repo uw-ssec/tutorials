@@ -7,6 +7,7 @@ parts:
       - file: AI_For_Scientific_Discovery_Participatory_Design_Workshop/README.md
         sections:
           - file: AI_For_Scientific_Discovery_Participatory_Design_Workshop/workshop-preparation/index.md
+          - file: AI_For_Scientific_Discovery_Participatory_Design_Workshop/session-outline/index.md
           - file: AI_For_Scientific_Discovery_Participatory_Design_Workshop/session1/index.md
           - file: AI_For_Scientific_Discovery_Participatory_Design_Workshop/session2/index.md
           - file: AI_For_Scientific_Discovery_Participatory_Design_Workshop/session3/index.md
