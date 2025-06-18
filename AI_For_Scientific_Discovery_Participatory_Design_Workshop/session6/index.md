@@ -1,1 +1,3 @@
-# Session 6: Synthesis & Next Steps (5 minutes)
+# Session 6: Synthesis & Next Steps
+
+```{include} ../timers/timer-5-minutes.md
