@@ -1,6 +1,6 @@
 # AI to Support Scientific Discovery
 
-## Workshop Summary
+## Participatory Design Workshop Summary
 
 This participatory design workshop is motivated by the principle that AI for
 scientific discovery can have an immense impact when solutions emerge from a
@@ -52,7 +52,8 @@ by the broader scientific community. They will further contribute to shaping the
 future of AI in science by ensuring that authentic scientific needs drive
 technological development.
 
-**Duration:** 90 minutes **Participants:** Scientists from multiple disciplines.
+**Duration:** 90 minutes  
+**Participants:** Scientists from multiple disciplines.  
 **Goal:** Develop practical knowledge about AI applications in science, and
 collaboratively identify and develop Generative AI use cases across scientific
 fields.

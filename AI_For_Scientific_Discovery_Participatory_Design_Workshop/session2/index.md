@@ -1,0 +1,1 @@
+# Session 2: Individual Idea Generation (15 minutes)
