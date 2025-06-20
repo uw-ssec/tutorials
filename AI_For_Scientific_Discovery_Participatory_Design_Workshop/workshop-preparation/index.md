@@ -3,15 +3,16 @@
 ## Materials Needed
 
 - Palm-Sized Post-it Notes
-    - 90 sets total 
-    - 3 different colors 
-        - 30 sets of each color
+  - 90 sets total
+  - 3 different colors
+    - 30 sets of each color
 - 75 Markers/Pens
 - 15 Large Easel Pads (flip charts)
-    - For participants to cluster their smaller post its, design use cases, and display for voting.
-- Voting Dots 
-    - PCS Colored Dot Stickers
-    - 4 different colors
+  - For participants to cluster their smaller post its, design use cases, and
+    display for voting.
+- Voting Dots
+  - PCS Colored Dot Stickers
+  - 4 different colors
 
 ## Room Setup
 

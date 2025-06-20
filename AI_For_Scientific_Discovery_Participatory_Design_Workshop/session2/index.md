@@ -1,4 +1,5 @@
 # Session 2: Individual Idea Generation
+
 ```{include} ../timers/timer-15-minutes.md
 
 ```
@@ -21,7 +22,12 @@ Aim for 5-8 ideas per person.
 Individual idea generation is encouraged, but talk to other participants (and us) if you are stalled.
 ```
 
-* Use <span style="background-color:green;color:white;">green sticky notes</span> for: `Existing AI-Powered Ideas.` For example, solutions you have heard about. 
-* Use <span style="background-color:yellow;">yellow sticky notes</span> for: `Problems Within Your Research Context.` For example, what frustrates you? Where could you appreciate more support? 
-* Use <span style="background-color:red;color:white;">red sticky notes</span> for: `Concerns With Integrating AI.` For example, what would be some risks in integrating AI in the research workflow with respect to your field? 
-
+- Use <span style="background-color:green;color:white;">green sticky
+  notes</span> for: `Existing AI-Powered Ideas.` For example, solutions you have
+  heard about.
+- Use <span style="background-color:yellow;">yellow sticky notes</span> for:
+  `Problems Within Your Research Context.` For example, what frustrates you?
+  Where could you appreciate more support?
+- Use <span style="background-color:red;color:white;">red sticky notes</span>
+  for: `Concerns With Integrating AI.` For example, what would be some risks in
+  integrating AI in the research workflow with respect to your field?

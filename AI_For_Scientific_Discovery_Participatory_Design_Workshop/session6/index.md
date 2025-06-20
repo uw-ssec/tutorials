@@ -4,7 +4,7 @@
 
 ```
 
-```{warning} 
+```{warning}
 - Add QR code for data collection (name, discipline, institution, would they be interested if reach out to them for engaging in the tools we build?)
 ```
 
@@ -19,6 +19,7 @@
 ## Expected Outcomes
 
 By the end of the session, you should have:
+
 - 25-35 specific AI use cases documented.
 - Clear identification of interdisciplinary opportunities.
 - Understanding of common research challenges across fields.
@@ -26,6 +27,6 @@ By the end of the session, you should have:
 - Prioritized list of the most promising use cases for development.
 
 ## Follow-Up Actions
+
 - Digitize and share all use cases with participants.
 - Plan technical feasibility assessments.
-
