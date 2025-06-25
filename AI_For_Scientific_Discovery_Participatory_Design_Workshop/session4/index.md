@@ -13,7 +13,7 @@
 ## Develop Use Cases
 
 - 1 Easel pad chart paper for 1 use case.
-- Groups work on flip chart paper, building ideas collaboratively.
+- Groups work on easel chart paper, building ideas collaboratively.
 - Use Case Template:
   - **The Problem:** What specific research challenge does this address?
   - **The AI Solution:** What would the AI system do? (be specific)
