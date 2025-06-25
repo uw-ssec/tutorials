@@ -4,10 +4,6 @@
 
 ```
 
-```{warning}
-- Add QR code for data collection (name, discipline, institution, would they be interested if reach out to them for engaging in the tools we build?)
-```
-
 - Facilitator highlights emerging themes from voting patterns.
 - Note unexpected interdisciplinary connections.
 - Identify most promising use cases.
