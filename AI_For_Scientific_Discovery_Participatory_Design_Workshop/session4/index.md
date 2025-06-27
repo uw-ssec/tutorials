@@ -4,26 +4,27 @@
 
 ```
 
-## Form Interest-Based Groups (Optional, ~5 minutes)
+```{admonition} Instructions
+:class: attention
 
-- Participants can self-organize and move to different tables for the most
-  compelling themes.
-- Aim to maintain a decent headcount on each table.
+- Form Interest-Based Groups (Optional, ~5 minutes)
 
-## Develop Use Cases
+- Develop Use Cases
 
-- 1 Easel pad chart paper for 1 use case.
-- Groups work on easel chart paper, building ideas collaboratively.
-- Use Case Template:
-  - **The Problem:** What specific research challenge does this address?
-  - **The AI Solution:** What would the AI system do? (be specific)
-  - **The Data:** What data would be needed to train/run this AI? What data
-    would be needed to support the agentic AI?
-  - **The Impact:** How would this change scientific practice?
-  - **Cross-Field Applications:** How might this work or impact other
-    disciplines?
+  - 1 Easel pad chart paper for 1 use case.
+  - Groups work on easel chart paper, building ideas collaboratively.
+  - Use Case Template:
+    - **The Problem:** What specific research challenge does this address?
+    - **The AI Solution:** What would the AI system do? (be specific)
+    - **The Data:** What data would be needed to train/run this AI? What data
+      would be needed to support the agentic AI?
+    - **The Impact:** How would this change scientific practice?
+    - **Cross-Field Applications:** How might this work or impact other
+      disciplines?
+```
 
-### For Rich Use Case Development
+```{admonition} Suggestions For Rich Use Case Development:
+:class: caution
 
 - Push for specificity and avoid vague "AI could help with data analysis or
   hypothesis generation".
@@ -33,3 +34,4 @@
   use this?
 - Explore unintended consequences and what could go wrong. How could it hurt
   scientific discovery?
+```

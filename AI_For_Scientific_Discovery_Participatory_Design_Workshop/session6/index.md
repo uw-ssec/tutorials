@@ -4,25 +4,15 @@
 
 ```
 
-- Facilitator highlights emerging themes from voting patterns.
-- Note unexpected interdisciplinary connections.
-- Identify most promising use cases.
-- Team will digitize and share all use cases with participants.
-- Share how these ideas will be developed further?
-- Collect names for continued collaboration and future interviews.
-- Thank participants.
+```{admonition} Instructions
+:class: attention
 
-## Expected Outcomes
+- Facilitators work to highlight emerging themes from voting patterns:
+    - Note unexpected interdisciplinary connections.
+    - Common research challenges across fields.
+    - Identify most promising use cases.
+    - Share how these ideas could be developed further.
+- Please take this time to fill out the following brief survey to tell us a little about your experience in this workshop and any future interests:
 
-By the end of the session, you should have:
-
-- 25-35 specific AI use cases documented.
-- Clear identification of interdisciplinary opportunities.
-- Understanding of common research challenges across fields.
-- Network of scientists interested in AI collaboration.
-- Prioritized list of the most promising use cases for development.
-
-## Follow-Up Actions
-
-- Digitize and share all use cases with participants.
-- Plan technical feasibility assessments.
+    - <img src="../../images/iss_2025_participant_form_qrcode.png" width="300" height="300" alt="Participant Form QRCODE">
+```
