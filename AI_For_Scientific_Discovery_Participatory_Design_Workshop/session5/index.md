@@ -4,20 +4,19 @@
 
 ```
 
-## Room Setup (~2 minutes)
-
 ```{admonition} Prerequisites
 - Groups post their use case charts around the room.
 - Everybody has voting dots.
 ```
 
-## Voting and Feedback (~13 minutes)
+```{admonition} Voting Instructions
+:class: attention
 
-- Participants walk around with voting dots.
+- Walk around with voting dots.
 - Place dots for:
-  - Most innovative use case
-  - Most practical/implementable
-  - Most relevant to your field
-  - Most surprising cross-disciplinary application
-- Participants can add brief written feedback on sticky notes:
-  - Focus can be on: "This reminds me of..." or "You could also..."
+  - <span style="background-color:red;color:white;">Most innovative use case (red)</span>
+  - <span style="background-color:purple;color:white;">Most practical/implementable (purple)</span>
+  - <span style="background-color:yellow;">Most relevant to your field (yellow)</span>
+  - <span style="background-color:blue;color:white;">Most interdisciplinary application (blue)</span>
+- Participants can add brief written feedback on sticky notes. Focus can be on: "This reminds me of..." or "You could also..."
+```

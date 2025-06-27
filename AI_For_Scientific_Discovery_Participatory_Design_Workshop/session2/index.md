@@ -15,12 +15,14 @@
 
 ```{admonition} Goal
 :class: tip
-Come up with specific challenges in your research domain, where you think tools powered by generative AI (or agentic AI) could be useful.
 
-Aim for 5-8 ideas per person.
-
-Individual idea generation is encouraged, but talk to other participants (and us) if you are stalled.
+- Come up with specific challenges in your research domain, where you think tools powered by generative AI (or agentic AI) could be useful.
+- Aim for 4-6 ideas per person.
+- Individual idea generation is encouraged, but talk to other participants (and us) if you are stalled. Additionally, please refer to the printed material.
 ```
+
+```{admonition} Optional Instructions
+:class: attention
 
 - Use <span style="background-color:green;color:white;">green sticky
   notes</span> for: `Existing AI-Powered Ideas.` For example, solutions you have
@@ -31,3 +33,4 @@ Individual idea generation is encouraged, but talk to other participants (and us
 - Use <span style="background-color:red;color:white;">red sticky notes</span>
   for: `Concerns With Integrating AI.` For example, what would be some risks in
   integrating AI in the research workflow with respect to your field?
+```
