@@ -14,5 +14,5 @@
     - Share how these ideas could be developed further.
 - Please take this time to fill out the following brief survey to tell us a little about your experience in this workshop and any future interests:
 
-    - <img src="../../images/iss_2025_participant_form_qrcode.png" width="300" height="300" alt="Participant Form QRCODE">
+    - <img src="../../../images/iss_2025_participant_form_qrcode.png" width="300" height="300" alt="Participant Form QRCODE">
 ```

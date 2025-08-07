@@ -77,6 +77,6 @@ sphinx:
         the search box 🔎 to find what you're looking for!</p>"
     notfound_urls_prefix: /
     html_extra_path:
-      - "AI_For_Scientific_Discovery_Participatory_Design_Workshop/session1/Caltech-Session1-Presentation.pdf"
+      - "Archive/AI_For_Scientific_Discovery_Participatory_Design_Workshop/session1/Caltech-Session1-Presentation.pdf"
 
     bibtex_reference_style: author_year # or label, super, \supercite
