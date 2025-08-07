@@ -71,12 +71,11 @@ sphinx:
     # application/vnd.holoviews_load.v0+json, application/vnd.holoviews_exec.v0+json
     suppress_warnings: ["mystnb.unknown_mime_type", "misc.highlighting_failure"]
     notfound_context:
-      body:
-        "<h1>Whoops! 404 Page Not Found</h1>\n\n<p>Sorry, this page doesn't
+      body: "<h1>Whoops! 404 Page Not Found</h1>\n\n<p>Sorry, this page doesn't
         exist. Many sections of this book have been updated recently.</p><p> Try
         the search box 🔎 to find what you're looking for!</p>"
     notfound_urls_prefix: /
     html_extra_path:
-      - "AI_For_Scientific_Discovery_Participatory_Design_Workshop/session1/Caltech-Session1-Presentation.pdf"
+      - "Archive/AI_For_Scientific_Discovery_Participatory_Design_Workshop/session1/Caltech-Session1-Presentation.pdf"
 
     bibtex_reference_style: author_year # or label, super, \supercite
